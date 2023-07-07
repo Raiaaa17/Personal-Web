@@ -1,0 +1,20 @@
+p{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.navbg{
+    background-color: #FAFAFA;
+}
+
+.ppfoto{
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 7%;
+}
+
+@media screen and (min-width: 900px){
+    p, li {
+        font-size: calc(18px + 6 * ((100vw - 320px) / (680)));
+    }
+}
